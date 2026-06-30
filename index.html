@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A1 Food & Biryani</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f8f8f8;
+}
+
+header{
+    background:linear-gradient(rgba(187, 64, 64, 0.6),rgba(240, 228, 97, 0.6)),
+    url('https://images.unsplash.com/photo-1563379091339-03246963d29b');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+header h1{
+    font-size:60px;
+}
+
+header p{
+    font-size:24px;
+    margin-top:10px;
+}
+
+.btn{
+    margin-top:20px;
+    background:#ff9800;
+    color:ghostwhite;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+    font-size:18px;
+}
+
+.section-title{
+    text-align:center;
+    margin:40px 0;
+    font-size:35px;
+    color:black;
+}
+
+.menu{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    width:280px;
+    background:ghostwhite;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card h3{
+    padding:10px;
+}
+
+.card p{
+    padding:0 10px 15px;
+    color:#ff5722;
+    font-weight:bold;
+}
+
+.about{
+    text-align:center;
+    padding:40px;
+    background:ghostwhite;
+}
+
+.contact{
+    background:linear-gradient(rgba(187, 64, 64, 0.6),rgba(240, 228, 97, 0.6));
+    color:black;
+    text-align:center;
+    padding:40px;
+}
+
+.order-btn{
+    display:inline-block;
+    margin-top:15px;
+    background:#28a745;
+    color:black;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+footer{
+    text-align:center;
+    padding:15px;
+    background:linear-gradient(rgba(187, 64, 64, 0.6),rgba(240, 228, 97, 0.6));
+    color:black;
+
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>A1 Food & Biryani</h1>
+    <p>Delicious Taste, Fresh Food & Fast Delivery</p>
+    <a href="#menu" class="btn">View Menu</a>
+</header>
+
+<section id="menu">
+    <h2 class="section-title">Our Menu</h2>
+
+    <div class="menu">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a">
+            <h3>Chicken Biryani</h3>
+            <p>₹140</p>
+        </div>
+
+        <div class="card">
+            <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2023/12/chilli-chicken-recipe.jpg" alt="Chicken Chilli full plate">
+            <h3>Chicken Chilli</h3>
+            <p>₹140</p>
+        </div>
+
+        <div class="card">
+            <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2024/02/chicken-kathi-roll-chicken-frankie.jpg" alt="Chicken Roll">
+            <h3>Chicken Roll</h3>
+            <p>₹60</p>
+        </div>
+
+        <div class="card">
+            <img src="https://www.whiskaffair.com/wp-content/uploads/2020/06/Lachha-Paratha-2-3.jpg" alt="Laccha Paratha">
+            <h3>Laccha Paratha</h3>
+            <p>₹15</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950">
+            <h3>Chicken Samosa</h3>
+            <p>₹15</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="about">
+    <h2>Our Cooks</h2>
+    <br>
+    <h3>Md Alam Ahmad</h3>
+    <h3>Afzal Ahmad</h3>
+</section>
+
+<section class="contact">
+    <h2>Contact Us</h2>
+    <br>
+    <p>📞 9693973233</p>
+    <br>
+
+    <a href="https://wa.me/919693973233?text=Hello%20I%20want%20to%20order%20food"
+       class="order-btn">
+       Order Online
+    </a>
+</section>
+
+<footer>
+    © 2026 A1 Food & Biryani | All Rights Reserved
+</footer>
+
+</body>
+</html>
